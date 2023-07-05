@@ -1,0 +1,81 @@
+.container {
+    display: flex;
+    margin: 20px;
+}
+
+#amountContainer,
+#expenseContainer {
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    /* display: flex; */
+    width: 40%;
+    height: 280px;
+    padding: 20px;
+    box-shadow: 5px 5px 15px grey;
+    margin-left: 25px;
+}
+
+#displayContainer {
+    width: 80%;
+    height: 80px;
+    background-color: blue;
+    color: white;
+    margin-left: 80px;
+}
+
+#displayContainer>#amount,
+#displayContainer>#amount2 {
+    display: inline-block;
+}
+
+#displayContainer>#headings>span {
+    padding-left: 150px;
+}
+
+#amount>span,
+#amount2>span {
+    padding-left: 200px;
+}
+
+#detailContainer {
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    /* display: flex; */
+    width: 60%;
+    height: 150px;
+    /* padding: 10px; */
+    box-shadow: 5px 5px 15px grey;
+    /* margin-top: 10px; */
+    margin-left: 250px;
+    overflow-y: scroll;
+    font-size: 23px;
+}
+
+.inputStyle {
+    width: 350px;
+    height: 50px;
+    margin: 10px;
+    font-size: 25px;
+}
+
+.btn {
+    margin-left: 120px;
+    padding: 10px;
+    background-color: blue;
+    color: antiquewhite;
+    border: 2px solid blue;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+    /* padding: 10px 30px; */
+    padding-left: 20px;
+    background-image: url("https://media.geeksforgeeks.org/wp-content/uploads/20220607182945/geeksforgeeks.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 20px;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="amountContainer">
+            <h1>BUDGET</h1>
+            <input type="number" class="inputStyle" id="budget" placeholder="ENTER BUDGET AMOUNT"><br><br><br><br><br>
+            <button onclick="a()" class="btn">SET BUDGET</button>
+        </div>
+        <div id="expenseContainer">
+            <h1>EXPENSES</h1>
+            <input type="text" class="inputStyle" id="expenseTitle" placeholder="ENTER NAME OF PRODUCT">
+            <input type="number" class="inputStyle" id="productCost" placeholder="ENTER COST OF PRODUCT"><br><br>
+            <button onclick="b()" class="btn" id="btn1">ADD EXPENSE</button>
+        </div>
+    </div>
+    <div id="displayContainer">
+        <div id="headings"><span>TOTAL BUDGET</span>
+            <span>EXPENSES</span>
+            <span>BALANCE</span>
+        </div>
+        <div id="amount">
+        </div>
+        <div id="amount2">
+
+        </div>
+    </div><br><br>
+    <div id="detailContainer">
+        <h3>EXPENSE LIST</h3>
+        <ul id="ul"></ul>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>
